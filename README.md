@@ -33,7 +33,7 @@ Browse and discover games by genre, platform, and popularity — powered by a th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/game-store.git
+   git clone https://github.com/manish01101/game-store.git
    cd game-store
 2. Install Dependencies
     ```bash
