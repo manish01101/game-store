@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# Game Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **game discovery platform** built with **React, TypeScript, and Chakra UI**.  
+Browse and discover games by genre, platform, and popularity — powered by a third-party REST API.  
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern UI**: Dark theme design with Chakra UI for responsive layout.
+- **Dynamic Game Data**: Integrated third-party REST API using Axios.
+- **Filtering & Sorting**: 
+  - Filter by **genre** (Action, Adventure, RPG, etc.)
+  - Select platforms (**PC, PlayStation, Xbox, Mobile**)
+  - Sort by **relevance, popularity, or rating**
+- **Performance Optimized**: Efficient API calls and smooth UI rendering.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Screenshots
 
-- Configure the top-level `parserOptions` property like this:
+> _![alt text](image.png)_
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+---
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tech Stack
+
+- **Frontend**: React, TypeScript, Chakra UI  
+- **HTTP Client**: Axios  
+- **API**: Third-party Game REST API  
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/game-store.git
+   cd game-store
+2. Install Dependencies
+    ```bash
+    npm install
+3. Create an .env file in the root directory and add your API key:
+    ```
+    VITE_API_KEY=your_api_key_here
+4. Start the development server:
+    ```
+    npm run dev
